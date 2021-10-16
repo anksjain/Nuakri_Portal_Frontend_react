@@ -32,7 +32,7 @@ export default function Register() {
         console.log(URL,"URL")
         let response;
         try {
-            response = await axios.get("http://localhost:5000/company", {
+            response = await axios.get(URL, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
